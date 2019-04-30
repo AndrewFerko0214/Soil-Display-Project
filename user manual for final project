@@ -1,0 +1,28 @@
+Soil Display User Guide
+4/30/19
+Modeling and Simulation
+Dr. Joel Bandstra
+
+
+
+
+
+
+
+
+
+
+Andrew Ferko
+Andrew Potopa
+Setting Up User Interface:
+1.	Open excel file titled user_interface11. The file can be found in junior year spring\Mod and Sim. If the file is not on the computer, download it and save it to the directory above. If the directory does not exist, create it and save the file. 
+2.	Navigate to the user sheet of the excel file, this should be the sheet displayed as the file opens. Define the location of different materials by denoting the cells with the numbers 1, 2, and 3. Changing the color the blocks is optional and solely based on user preference and has no impact on functionality of model. The orange and red colored cells indicate the boundaries of the display and should not be changed. 
+3.	Navigate to the sheet titled Flux. This is the second and only other sheet in the file. The column titled qx is where the user inputs the desired flux in the x direction. The column qy is where the user inputs the flux in the y direction. The columns K1, K2, and K3 correspond to the hydraulic conductivity of each materials. The hydraulic conductivities entered in to K1, K2, and K3 columns will correspond to the numbers 1, 2, and 3 on the user sheet. Note: Each cell in the User tab corresponds to 8 cm of the soil display. 
+4.	Save the file.
+5.	Optional: Locate the file on the system, right click the file and view the properties tab. Ensure that the file directory location matches the directory path in step 1. 
+6.	Open python and load Soil_Display_Simulation. The location of this file depends on where the user saved it. 
+
+Running Code:
+1.	After following steps 1-6 of setting up the user interface. Press the run option in python to start the model. In the top right corner of the python console, located at the bottom right side of the program, a red box should appear. 
+2.	The run time of the program takes between 10 and 15 minutes based on the parameters defined by the user. 
+3.	Analyze the results visually through the graph located in the bottom right of the program, or use the variable explorer at the top right to view values at specific locations. The outputs of the program are h, qx, and qy. 
